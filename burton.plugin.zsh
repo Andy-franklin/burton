@@ -63,12 +63,12 @@ function prompt_burton_setup {
   # Use extended color pallete if available.
   if [[ $TERM = *256color* || $TERM = *rxvt* ]]; then
     _prompt_burton_colors=(
-      "%F{201}" # 1 - Hot Pink
+      "%F{202}" # 1 - Lovely Orange
       "%F{2}" # 2 - Dark Green
-      "%F{83}" # 3 - Light Green
+      "%F{77}" # 3 - Light Green
       "%F{87}" # 4 - Light Blue
-      "%F{196}" # 5 - Red
-      "%F{129}" # 6 - Dark Purple
+      "%F{160}" # 5 - Red
+      "%F{69}" # 6 - Nice blue
     )
   else
     _prompt_burton_colors=(
